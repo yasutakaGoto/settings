@@ -13,6 +13,8 @@ GIT_PS1_SHOWSTASHSTATE=
 GIT_PS1_SHOWUPSTREAM=
 setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f:%F{cyan}%~%f%F{magenta}$(__git_ps1)%f
 \$ '
+export PATH="$PATH:`pwd`/flutter/bin"
+
 # export PYENV_ROOT="$HOME/.pyenv"
 # export PATH="$PYENV_ROOT/bin:$PATH"
 # eval "$(pyenv init -)"
